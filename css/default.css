@@ -9,8 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
-h2 {
+h2, h3 {
     color: #fff;
+}
+hr {
+    border: 1px solid #333;
 }
 .container {
     width: 96%;
@@ -68,6 +71,31 @@ h2 {
     max-width: 100px;
     object-fit: cover;
 }
+#prototip {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+#prototipBox {
+    width: 10%;
+    max-width:100px;
+    float:left;
+    margin: 10px;
+}
+#prototipBox img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 20%;
+    max-width: 100px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #777;
+    border-width: 3px;
+}
+#space10 {
+    height: 40px;
+    display: inline-block;
+}
 
 @media screen and (max-width: 768px) {
     .container {
@@ -85,6 +113,10 @@ h2 {
     }
     #linkBox {
         width: 40%;
+    }
+
+    #prototipBox {
+        width: 40%;        
     }
 }
     
