@@ -1,0 +1,90 @@
+body {
+    background: #000;
+    color: #999;
+    font-family: sans-serif, Segoe UI,Arial,Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #fff;
+}
+.container {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+#menu {
+    display: inline-block;
+}
+#box {
+    float: left;
+/*    border-style: solid;
+    border-color: #000;
+    border-width: 1px;*/
+    width: 49%;
+}
+#profil{
+    text-align:center;
+}
+#profilTitle {
+    margin-top: 50px;
+}
+#profil img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #999;
+    border-width: 4px;
+}
+#contact {
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#linkBox a {
+    width: 100%;
+    text-align: center;
+    max-width: 80px;
+}
+#linkBox img {
+    text-align: center;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    #box {
+        float: left;
+        width: 100%;
+    }
+    #profilTitle {
+        text-align: center;
+    }
+    #linkBox {
+        width: 40%;
+    }
+}
+    
